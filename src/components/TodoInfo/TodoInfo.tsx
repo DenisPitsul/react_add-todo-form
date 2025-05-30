@@ -1,5 +1,5 @@
 import React from 'react';
-import './TodoInfo';
+import './TodoInfo.scss';
 import { Todo } from '../../types/Todo';
 import { UserInfo } from '../UserInfo';
 import cn from 'classnames';

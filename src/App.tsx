@@ -14,7 +14,7 @@ export const App = () => {
       id: getNewTodoId(todos),
     };
 
-    setTodos(currentTodo => [...currentTodo, newTodo]);
+    setTodos(currentTodos => [...currentTodos, newTodo]);
   };
 
   return (
